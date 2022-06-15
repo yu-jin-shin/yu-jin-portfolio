@@ -16,10 +16,16 @@
 
 .you img{width:152px;height:155px;margin-top: 60px;}
 
+.kjg{font-size: 90px;text-align: center;margin-top: -70px;font-family: 'GangwonEduHyeonokT OTF';}
+.kjh{font-size: 38px;padding-top: 20px;font-family: 'GangwonEduHyeonokT OTF';
+    text-align: center}
+.container span{color: #FF9999;}
+
+
 
 
 .cover-v1 .container img {
-    width: 100%;
+    width: auto;display: block; margin: 0px auto; padding-top: 130px;
 }
 
 .portfolio-item .wrap-icon, .blog-item .wrap-icon {
@@ -188,6 +194,8 @@
             background: rgba(0, 0, 0, 0.6);
             z-index: 9999;
             display: none;    
+
+            
         }
         #modal .body {
             padding: 20px;
@@ -249,5 +257,28 @@
 
         @media all and (max-width:650px){
             .doo{padding-left: 80px;}
+
         }
-       
+        @media all and (max-width:1200px){
+            .kjg {
+                font-size: 60px;
+               
+                line-height: 40px;
+              
+                
+            }
+            .kjh {
+                font-size: 34px;
+              
+            }
+          
+            }
+        
+        @media all and (max-width:800px){
+            .cover-v1 .container img {
+                width: 100%;
+                
+                padding-top: 230px;
+            }
+        }
+        
